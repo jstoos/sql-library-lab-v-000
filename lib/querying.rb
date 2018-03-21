@@ -50,6 +50,5 @@ def select_character_names_and_number_of_books_they_are_in
   ON character_books.book_id = books.id
   GROUP BY character_books.character_id
   ORDER BY characters.name DESC
-  LIMIT 1
   "
 end
